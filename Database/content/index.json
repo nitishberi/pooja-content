@@ -1,0 +1,124 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-01-15T10:30:00Z",
+  "total_content": 5,
+  "categories": {
+    "mantra": {
+      "count": 2,
+      "items": ["gayatri_mantra", "om_namah_shivaya"]
+    },
+    "chalisa": {
+      "count": 2,
+      "items": ["hanuman_chalisa", "durga_chalisa"]
+    },
+    "stotram": {
+      "count": 1,
+      "items": ["shiva_stotram"]
+    },
+    "sahasranama": {
+      "count": 0,
+      "items": []
+    }
+  },
+  "featured": [
+    "hanuman_chalisa",
+    "gayatri_mantra"
+  ],
+  "recent": [
+    "durga_chalisa",
+    "shiva_stotram"
+  ],
+  "popular": [
+    "hanuman_chalisa",
+    "gayatri_mantra",
+    "durga_chalisa"
+  ],
+  "languages": [
+    "sanskrit",
+    "hindi",
+    "english",
+    "gujarati",
+    "tamil",
+    "telugu",
+    "bengali"
+  ],
+  "authors": [
+    "Tulsidas",
+    "Vedic",
+    "Adi Shankaracharya",
+    "Traditional",
+    "Mahabharata"
+  ],
+  "content_list": [
+    {
+      "id": "hanuman_chalisa",
+      "title": "Hanuman Chalisa",
+      "category": "chalisa",
+      "author": "Tulsidas",
+      "pages": 12,
+      "difficulty": "beginner",
+      "duration": 15,
+      "is_featured": true,
+      "download_count": 1250,
+      "rating": 4.8,
+      "languages_available": ["sanskrit", "hindi", "english", "gujarati"],
+      "file_path": "individual/hanuman_chalisa.json"
+    },
+    {
+      "id": "gayatri_mantra",
+      "title": "Gayatri Mantra",
+      "category": "mantra",
+      "author": "Vedic",
+      "pages": 1,
+      "difficulty": "beginner",
+      "duration": 5,
+      "is_featured": true,
+      "download_count": 2100,
+      "rating": 4.9,
+      "languages_available": ["sanskrit", "hindi", "english"],
+      "file_path": "individual/gayatri_mantra.json"
+    },
+    {
+      "id": "shiva_stotram",
+      "title": "Shiva Stotram",
+      "category": "stotram",
+      "author": "Adi Shankaracharya",
+      "pages": 8,
+      "difficulty": "intermediate",
+      "duration": 20,
+      "is_featured": false,
+      "download_count": 450,
+      "rating": 4.6,
+      "languages_available": ["sanskrit", "hindi", "english"],
+      "file_path": "individual/shiva_stotram.json"
+    },
+    {
+      "id": "durga_chalisa",
+      "title": "Durga Chalisa",
+      "category": "chalisa",
+      "author": "Traditional",
+      "pages": 10,
+      "difficulty": "beginner",
+      "duration": 12,
+      "is_featured": false,
+      "download_count": 680,
+      "rating": 4.7,
+      "languages_available": ["sanskrit", "hindi", "english"],
+      "file_path": "individual/durga_chalisa.json"
+    },
+    {
+      "id": "vishnu_sahasranama",
+      "title": "Vishnu Sahasranama",
+      "category": "sahasranama",
+      "author": "Mahabharata",
+      "pages": 25,
+      "difficulty": "advanced",
+      "duration": 45,
+      "is_featured": false,
+      "download_count": 320,
+      "rating": 4.5,
+      "languages_available": ["sanskrit", "hindi", "english"],
+      "file_path": "individual/vishnu_sahasranama.json"
+    }
+  ]
+}

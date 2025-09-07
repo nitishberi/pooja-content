@@ -1,0 +1,44 @@
+{
+  "id": "gayatri_mantra",
+  "title": "Gayatri Mantra",
+  "description": "Sacred Gayatri Mantra for spiritual enlightenment and divine wisdom",
+  "content": "ॐ भूर्भुवः स्वः\nतत्सवितुर्वरेण्यं\nभर्गो देवस्य धीमहि\nधियो यो नः प्रचोदयात्",
+  "pages": 1,
+  "category": "mantra",
+  "author": "Vedic",
+  "language": "sanskrit",
+  "difficulty": "beginner",
+  "duration": 5,
+  "tags": ["gayatri", "mantra", "enlightenment", "wisdom", "vedic"],
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-15T10:30:00Z",
+  "version": "1.0.0",
+  "is_featured": true,
+  "download_count": 2100,
+  "rating": 4.9,
+  "metadata": {
+    "original_source": "Rig Veda",
+    "transliteration": "Om Bhur Bhuvaḥ Swaḥ, Tat-savitur Vareṇyaṃ, Bhargo Devasya Dhīmahi, Dhiyo Yonaḥ Prachodayāt",
+    "meaning": "We meditate on the glory of the Creator who has created the universe, who is worthy of worship, who is the embodiment of knowledge and light, who is the remover of all sin and ignorance. May He enlighten our intellect.",
+    "benefits": [
+      "Enhances mental clarity and wisdom",
+      "Purifies the mind and intellect",
+      "Brings spiritual enlightenment",
+      "Removes ignorance and darkness",
+      "Connects with divine consciousness"
+    ],
+    "when_to_use": [
+      "During sunrise (Sandhya time)",
+      "Before studies or learning",
+      "Daily morning meditation",
+      "When seeking guidance",
+      "During spiritual practices"
+    ],
+    "prerequisites": [
+      "Clean body and mind",
+      "Respectful attitude",
+      "Can be chanted by anyone",
+      "Traditionally 108 times for full effect"
+    ]
+  }
+}

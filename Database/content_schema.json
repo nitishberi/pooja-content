@@ -1,0 +1,60 @@
+{
+  "content_schema": {
+    "description": "Schema for Pooja Grantha content files",
+    "version": "1.0.0",
+    "content_file": {
+      "id": "string (unique identifier)",
+      "title": "string (original title)",
+      "description": "string (brief description)",
+      "content": "string (main content text)",
+      "pages": "number (total pages)",
+      "category": "string (mantra, stotram, chalisa, sahasranama, etc.)",
+      "author": "string (original author)",
+      "language": "string (original language - usually sanskrit)",
+      "difficulty": "string (beginner, intermediate, advanced)",
+      "duration": "number (estimated reading time in minutes)",
+      "tags": ["array of strings (keywords for search)"],
+      "created_at": "string (ISO 8601 date)",
+      "updated_at": "string (ISO 8601 date)",
+      "version": "string (content version)",
+      "is_featured": "boolean (featured content flag)",
+      "download_count": "number (download statistics)",
+      "rating": "number (user rating 1-5)",
+      "metadata": {
+        "original_source": "string (source of the content)",
+        "transliteration": "string (romanized version if applicable)",
+        "meaning": "string (brief meaning/explanation)",
+        "benefits": "array of strings (spiritual benefits)",
+        "when_to_use": "array of strings (appropriate times/occasions)",
+        "prerequisites": "array of strings (required knowledge/rituals)"
+      }
+    },
+    "translation_file": {
+      "content_id": "string (references main content id)",
+      "language": "string (language code)",
+      "title": "string (translated title)",
+      "content": "string (translated content)",
+      "pages": "number (pages in this language)",
+      "translator": "string (translator name)",
+      "translation_quality": "string (verified, community, ai)",
+      "created_at": "string (ISO 8601 date)",
+      "updated_at": "string (ISO 8601 date)"
+    },
+    "index_file": {
+      "version": "string (index version)",
+      "last_updated": "string (ISO 8601 date)",
+      "total_content": "number (total content items)",
+      "categories": {
+        "category_name": {
+          "count": "number (items in category)",
+          "items": ["array of content ids"]
+        }
+      },
+      "featured": ["array of featured content ids"],
+      "recent": ["array of recently added content ids"],
+      "popular": ["array of popular content ids"],
+      "languages": ["array of available languages"],
+      "authors": ["array of unique authors"]
+    }
+  }
+}
