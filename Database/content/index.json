@@ -5,15 +5,15 @@
   "categories": {
     "mantra": {
       "count": 2,
-      "items": ["gayatri_mantra", "om_namah_shivaya"]
+      "items": ["gayatri_mantra"]
     },
     "chalisa": {
       "count": 2,
-      "items": ["hanuman_chalisa", "durga_chalisa"]
+      "items": ["hanuman_chalisa"]
     },
     "stotram": {
       "count": 1,
-      "items": ["shiva_stotram"]
+      "items": []
     },
     "sahasranama": {
       "count": 0,
@@ -25,13 +25,8 @@
     "gayatri_mantra"
   ],
   "recent": [
-    "durga_chalisa",
-    "shiva_stotram"
   ],
   "popular": [
-    "hanuman_chalisa",
-    "gayatri_mantra",
-    "durga_chalisa"
   ],
   "languages": [
     "sanskrit",
